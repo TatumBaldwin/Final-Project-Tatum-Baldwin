@@ -1,0 +1,63 @@
+      /* main black nav */
+      
+      /* edit the flex container along with border here */
+        .main-nav {
+            display: flex;
+            gap: 1.5em;
+            justify-content: space-around;
+            margin: 50px;
+            padding: 20px 100px;
+            border-bottom: 8px solid;
+            
+        }
+
+        /* edit button shape, size and color here */
+        .nav-btn {
+            height: 60px;
+            width: 100px;
+            border-radius: 70%;
+            background-color: rgb(8, 8, 8);
+            border: 1px solid rgb(108, 100, 141);
+            
+        }
+
+        /* edit hovering capabilities here - background color and animation */
+        .nav-btn:hover {
+            background-color: rgb(108, 100, 141);
+            transform: translate(0%, -10%);
+        }
+
+        .nav-btn:active {
+            background-color: black;
+        }
+
+
+        /* edit text and link size here */
+        .nav-lnk {
+            padding: 10px;
+            border-radius: 70%;
+            color: rgb(231, 240, 223);
+            text-decoration:none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            
+        }
+
+
+        /* blue nav */
+
+        .main-nav.blue {
+            border-bottom: 8px solid blue;
+        }
+
+        .nav-btn.blue {
+            background-color: blue;
+        }
+
+        .nav-btn.blue:hover {
+            background-color: rgb(90, 90, 213);
+        }
+
+        .nav-btn.blue:active {
+            background-color: blue;
+        }
