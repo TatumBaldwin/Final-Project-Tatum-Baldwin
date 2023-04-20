@@ -17,15 +17,14 @@
     &.shadow {
         box-shadow: rgb(98, 46, 93) -3px 2px 3px;
     }
+
+    &.hallow {
+        background-color: white;
+        color: rgb(237, 159, 226);
+        border: solid 2px rgb(237, 159, 226);
+    }
 }
 
-.btn
-
-.btn.hallow {
-    background-color: white;
-    color: rgb(237, 159, 226);
-    border: solid 2px rgb(237, 159, 226);
-}
 
 .btn.rounded {
     border-radius: 50%;
