@@ -1,13 +1,21 @@
-      /* main black nav */
-      
-      /* edit the flex container along with border here */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        /* edit the flex container along with border here */
         .main-nav {
             display: flex;
             gap: 1.5em;
             justify-content: space-around;
             margin: 50px;
             padding: 20px 100px;
-            border-bottom: 8px solid;
+            border-bottom: 10px solid;
             
         }
 
@@ -44,20 +52,21 @@
         }
 
 
-        /* blue nav */
+    </style>
+</head>
+<body>
+        <!-- This is the div in which the buttons reside -->
 
-        .main-nav.blue {
-            border-bottom: 8px solid blue;
-        }
+    <nav class="main-nav">
+      <button class="nav-btn home-lnk"><a class="nav-lnk" href="###">Home</a> </button>
+      <button class="nav-btn about-lnk"><a class="nav-lnk" href="###">About</a> </button>
 
-        .nav-btn.blue {
-            background-color: blue;
-        }
+     
 
-        .nav-btn.blue:hover {
-            background-color: rgb(90, 90, 213);
-        }
+      <button class="nav-btn shop-lnk"><a class="nav-lnk" href="###">Shop</a></button>
+      <button class="nav-btn contact-lnk"><a class="nav-lnk" href="###">Contact</a></button>
+    </nav>
 
-        .nav-btn.blue:active {
-            background-color: blue;
-        }
+
+</body>
+</html>
