@@ -1,17 +1,39 @@
+
+
 .main-hero-container {
     position: relative;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .main-hero-img {
     width: 100vw;
     z-index: -1;
 }
 
-.main-hero-p {
+.quo {
+    position: relative;
+    font-size: 50px;
+    color: black;
+}
+
+
+.content-left {
     position: absolute;
     font-size: 3vw;
     top: 40%;
-    left: 5%;
+     left: 5%;                                    /* This class makes the paragraph align left */
     color: rgb(255, 255, 255);
     z-index: 1;
+} 
+
+.content-right {
+    position: absolute;
+    font-size: 3vw;
+    top: 25%;
+    left: 35%;                                   /* This class makes the paragraph align right */
+    color: rgb(0, 0, 0);
+    z-index: 1;
 }
+
+
