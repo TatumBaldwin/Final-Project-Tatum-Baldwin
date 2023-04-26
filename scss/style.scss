@@ -1,0 +1,42 @@
+@import 'variables';
+
+.main-card {
+    display: flex;
+    margin: 30px;
+    gap: 1em;
+    padding: 20px;
+    width: 60vw;
+    border-radius: 10%;
+    
+
+    &.column {
+        flex-direction: column;
+        background-color: $primary-color;
+    }
+
+    &.row {
+        flex-direction: row;
+        background-color: $primary-color;
+    }
+
+    &.reverse {
+        background-color: $primary-color;
+    }
+
+ 
+
+}
+
+
+   .card-img {
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+
+    .card-btn {
+       height: 50px;
+       background-color: rgb(104, 93, 127);
+       color: white;
+    }
