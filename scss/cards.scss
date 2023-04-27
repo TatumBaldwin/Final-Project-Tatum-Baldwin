@@ -3,7 +3,7 @@
 .main-card {
     display: flex;
     margin: 30px;
-    gap: 1em;
+    gap: 1vw;
     padding: 20px;
     width: 60vw;
     border-radius: 10%;
@@ -27,16 +27,23 @@
 
 }
 
+    .card-p {
+        font-size: 2vw;
+        margin: 10px;
+    }
+
 
    .card-img {
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 20vw;
+    height: 20vw;
+    margin: 0.5vw;
 }
 
 
     .card-btn {
-       height: 50px;
-       background-color: rgb(104, 93, 127);
-       color: white;
+        font-size: 2vw;
+        height: 5vw;
+        background-color: rgb(104, 93, 127);
+        color: white;
     }
