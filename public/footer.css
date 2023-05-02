@@ -1,0 +1,57 @@
+.footercontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(150, 131, 176);
+  margin: 1vw;
+}
+
+.linkcontain1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 3vw;
+}
+.linkcontain1 .footerlink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 10vw;
+  margin: 1em;
+}
+
+.linkcontain2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 3vw;
+}
+.linkcontain2 .footerlink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 10vw;
+  margin: 1em;
+}
+
+.footerh2 {
+  font-size: 4vw;
+  margin: 1vw;
+}
+
+.business {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 10vw;
+}
+.business .footerlogo {
+  margin: 2vw;
+  width: 30vw;
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=footer.css.map */
