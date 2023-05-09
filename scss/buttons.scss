@@ -12,14 +12,13 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 1em;
     cursor: grab;
+    margin-left: 3vw;
   }
   
-  .btn.shadow {
-    box-shadow: rgb(98, 46, 93) -3px 2px 3px;
-  }
+
   
   .btn.hallow {
-    background-color: white;
+    background-color: $primary-color;
     color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
   }
@@ -29,7 +28,7 @@
   }
   
   .btn:hover {
-    background-color: $primary-color;
+    background-color: rgb(108, 100, 141);
     color: white;
     padding: 20px;
   }

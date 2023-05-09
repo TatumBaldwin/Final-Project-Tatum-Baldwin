@@ -4,3 +4,74 @@
 @import 'footer';
 @import 'hero';
 @import 'nav';
+
+.wholepage {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.mainlogo {
+    width: 25vw;
+    margin-right: 4vw;
+}
+
+.festivimg {
+    width: 80vw;
+    height: 20vw;
+    margin: auto;
+}
+
+.headings {
+    font-size: 5vw;
+    text-align: center;
+    margin: auto;
+    color: rgb(4, 4, 4);
+
+}
+
+.artist {
+    font-size: 3vw;
+    text-indent: 0.5em;
+    color: white;
+    background-color: black;
+}
+
+.artistimg {
+    width: 50%;
+}
+.preformcard {
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    margin-top: 3vw;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: rgb(135, 169, 145);
+}
+
+.prefwrapper {
+    margin: auto;
+    padding: 30px;
+    margin: 5vw;
+    background-color: $primary-color;
+    border-radius: 10%;
+}
+
+.day {
+    font-size: 3vw;
+    color: rgb(195, 213, 195);
+    background-color: black;
+    width: 50%;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.scheditem {
+    font-size: 2vw;
+    padding-left: 3vw;
+}

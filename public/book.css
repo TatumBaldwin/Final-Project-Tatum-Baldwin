@@ -1,0 +1,279 @@
+/* This is my main button style, this is where you can change
+ color, shadow, size and other general style things. */
+.btn {
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  cursor: grab;
+  margin-left: 3vw;
+}
+
+.btn.hallow {
+  background-color: rgb(99, 149, 109);
+  color: rgb(0, 0, 0);
+  border: solid 2px rgb(0, 0, 0);
+}
+
+.btn.rounded {
+  border-radius: 47%;
+}
+
+.btn:hover {
+  background-color: rgb(108, 100, 141);
+  color: white;
+  padding: 20px;
+}
+
+.btn:active {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn.shadow:active {
+  box-shadow: none;
+}
+
+
+.main-card {
+  display: flex;
+  gap: 1vw;
+  padding: 3vw;
+  justify-content: center;
+  width: 85vw;
+  margin: auto;
+  margin-top: 5vw;
+  border-radius: 10%;
+}
+.main-card.column {
+  flex-direction: column;
+  background-color: rgb(99, 149, 109);
+}
+.main-card.row {
+  flex-direction: row;
+  background-color: rgb(99, 149, 109);
+}
+.main-card.reverse {
+  background-color: rgb(99, 149, 109);
+}
+
+.card-p {
+  font-size: 2vw;
+  margin: 10px;
+  padding: 1.5vw;
+}
+
+.card-img {
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  margin: 0.5vw;
+}
+
+.card-btn {
+  font-size: 2vw;
+  height: 5vw;
+  background-color: rgb(84, 100, 79);
+  color: white;
+}
+
+.footercontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(99, 149, 109);
+  border-top: 8px solid;
+  margin: 1vw;
+}
+
+.linkcontain1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 2vw;
+}
+.linkcontain1 .footerlink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 10vw;
+  margin: 1em;
+}
+
+.linkcontain2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 2vw;
+}
+.linkcontain2 .footerlink {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 10vw;
+  margin: 1em;
+}
+
+.footerh2 {
+  font-size: 4vw;
+  margin: 1vw;
+}
+
+.business {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 10vw;
+}
+.business .footerlogo {
+  margin: 2vw;
+  width: 30vw;
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.main-hero-container {
+  position: relative;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.main-hero-img {
+  width: 90vw;
+  z-index: -1;
+  margin: auto;
+}
+
+.quo {
+  position: relative;
+  font-size: 5vw;
+  color: rgb(181, 211, 184);
+}
+
+.content-right {
+  position: absolute;
+  font-family: fantasy;
+  font-size: 3.5vw;
+  top: 60%;
+  left: 23%; /* This class makes the paragraph align right */
+  color: rgb(199, 232, 202);
+  z-index: 1;
+}
+
+/* main black nav */
+/* edit the flex container along with border here */
+.main-nav {
+  display: flex;
+  width: 80vw;
+  gap: 1vw;
+  align-content: center;
+  justify-content: center;
+  padding: 20px 100px;
+  border-bottom: 8px solid;
+  background-color: rgb(99, 149, 109);
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* edit button shape, size and color here */
+.nav-btn {
+  width: 50vw;
+  background-color: rgb(8, 8, 8);
+  border: 1px solid rgb(108, 100, 141);
+}
+
+/* edit hovering capabilities here - background color and animation */
+.nav-btn:hover {
+  background-color: rgb(108, 100, 141);
+  transform: translate(0%, -10%);
+}
+
+.nav-btn:active {
+  background-color: black;
+}
+
+/* edit text and link size here */
+.nav-lnk {
+  color: rgb(231, 240, 223);
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.9vw;
+}
+
+.wholepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainlogo {
+  width: 25vw;
+  margin-right: 4vw;
+}
+
+.festivimg {
+  width: 80vw;
+  height: 20vw;
+  margin: auto;
+}
+
+.headings {
+  font-size: 5vw;
+  text-align: center;
+  margin: auto;
+  color: rgb(4, 4, 4);
+}
+
+.artist {
+  font-size: 3vw;
+  text-indent: 0.5em;
+  color: white;
+  background-color: black;
+}
+
+.artistimg {
+  width: 50%;
+}
+
+.preformcard {
+  display: flex;
+  width: 50vw;
+  margin: auto;
+  margin-top: 3vw;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10%;
+  background-color: rgb(135, 169, 145);
+}
+
+.prefwrapper {
+  margin: auto;
+  padding: 30px;
+  margin: 5vw;
+  background-color: rgb(99, 149, 109);
+  border-radius: 10%;
+}
+
+.day {
+  font-size: 3vw;
+  color: rgb(195, 213, 195);
+  background-color: black;
+  width: 50%;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.scheditem {
+  font-size: 2vw;
+  padding-left: 3vw;
+}
+
+/*# sourceMappingURL=book.css.map */
