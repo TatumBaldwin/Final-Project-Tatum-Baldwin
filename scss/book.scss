@@ -24,6 +24,7 @@ justify-content: center;
 
 .headings {
     font-size: 5vw;
+    width: 100%;
     text-align: center;
     margin: auto;
     color: rgb(4, 4, 4);
@@ -87,10 +88,20 @@ justify-content: center;
     gap: 5vw;
     margin-bottom: 3vw;
     margin-top: 3vw;
+    background-color: $primary-color;
+    width: 90vw;
+    border-radius: 10%;
 }
 
 .sponsimg {
-    width: 13vw;
+    width: 100px;
+    height: 100px;
+}
+
+.sponsorp {
+    font-size: 2vw;
+    padding: 3vw;
+    text-align: center;
 }
 
 
