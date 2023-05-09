@@ -76,6 +76,26 @@ justify-content: center;
     padding-left: 3vw;
 }
 
+
+
+.sponsorwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 5vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.sponsimg {
+    width: 13vw;
+}
+
+
+
+
             /* Hamburger nav  */
             .hidden {
                 visibility: hidden;
