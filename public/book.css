@@ -80,6 +80,21 @@
   color: white;
 }
 
+.sponsorwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 5vw;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+}
+
+.sponsimg {
+  width: 13vw;
+}
+
 .footercontain {
   display: flex;
   flex-direction: row;
@@ -160,7 +175,7 @@
   font-family: fantasy;
   font-size: 3.5vw;
   top: 60%;
-  left: 23%; /* This class makes the paragraph align right */
+  left: 15%; /* This class makes the paragraph align right */
   color: rgb(199, 232, 202);
   z-index: 1;
 }
@@ -274,6 +289,56 @@
 .scheditem {
   font-size: 2vw;
   padding-left: 3vw;
+}
+
+/* Hamburger nav  */
+.hidden {
+  visibility: hidden;
+}
+
+#hamnav {
+  position: relative;
+}
+
+#hamitems a {
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: rgba(99, 149, 109, 0.5);
+}
+
+/* (B) SHOW HAMBURGER ICON */
+#hamnav label {
+  color: rgb(131, 125, 125);
+  background: transparent;
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* (C) TOGGLE SHOW/HIDE MENU */
+#hamitems {
+  display: none;
+}
+
+#hamnav input:checked ~ #hamitems {
+  display: block;
+}
+
+/*hide ham for larger browsers*/
+@media only screen and (min-width: 652px) {
+  #hamnav, #hamitems {
+    display: none;
+  }
+}
+@media only screen and (max-width: 651px) {
+  .main-nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=book.css.map */

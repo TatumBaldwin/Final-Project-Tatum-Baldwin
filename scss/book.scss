@@ -75,3 +75,51 @@ justify-content: center;
     font-size: 2vw;
     padding-left: 3vw;
 }
+
+            /* Hamburger nav  */
+            .hidden {
+                visibility: hidden;
+            }
+        
+           #hamnav {
+             position: relative;
+            }
+        
+            #hamitems a {
+              box-sizing: border-box;
+              text-align: center;
+              display: block;
+              width: 100%;
+              padding: 10px;
+              text-decoration: none;
+              color: rgb(28, 26, 26);
+              background: rgb(99, 149, 109, 0.5);
+            }
+           
+            /* (B) SHOW HAMBURGER ICON */
+            #hamnav label { 
+              color: rgb(131, 125, 125);
+              background:  transparent;
+              font-style: normal;
+              font-size: 1.2em;
+              padding: 10px;
+            }
+          
+            /* (C) TOGGLE SHOW/HIDE MENU */
+            #hamitems { display: none; }
+            #hamnav input:checked ~ #hamitems { display: block; }
+        
+         
+              /*hide ham for larger browsers*/
+              
+  @media only screen and (min-width:652px) {
+    #hamnav, #hamitems {
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-width:651px) {
+    .main-nav {
+        display: none;
+    }
+  }
