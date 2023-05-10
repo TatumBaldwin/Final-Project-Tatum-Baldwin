@@ -1,1 +1,24 @@
 $primary-color: rgb(99, 149, 109);
+
+
+// Define breakpoint variables
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+
+// Create a mixin for media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == small {
+    @media (min-width: $breakpoint-small) {
+      @content;
+    }
+  } @else if $breakpoint == medium {
+    @media (min-width: $breakpoint-medium) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media (min-width: $breakpoint-large) {
+      @content;
+    }
+  }
+}

@@ -8,9 +8,9 @@
 
 
 .wholepage {
-display: flex;
-flex-direction: column;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mainlogo {
@@ -68,6 +68,8 @@ justify-content: center;
     color: rgb(195, 213, 195);
     background-color: black;
     width: 50%;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
 .schedule {

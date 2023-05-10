@@ -211,9 +211,10 @@ table {
 
 .content-right {
   position: absolute;
-  font-family: fantasy;
+  font-family: cursive;
+  line-height: 5vw;
   font-size: 3.5vw;
-  top: 60%;
+  top: 70%;
   left: 15%; /* This class makes the paragraph align right */
   color: rgb(199, 232, 202);
   z-index: 1;
@@ -319,6 +320,8 @@ table {
   color: rgb(195, 213, 195);
   background-color: black;
   width: 50%;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
 }
 
 .schedule {
